@@ -1,5 +1,6 @@
 #startSida {
-    height: 400px;
+    padding: 0px;
+    align-items: flex-start;
 }
 #startText {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -11,4 +12,27 @@
 hr.rounded {
     border-radius: 6px;
     border-width: 6px;
+}
+#profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(250, 242, 230);
+    border-radius: 6px;
+    align-items: center;
+    padding: 15px;
+}
+#information {
+    display: flex;
+    flex-direction: column;
+}
+#workPlaces {
+    padding-left: 100px;
+}
+#bottom-section {
+    display: flex;
+    padding: 15px;
+}
+p.space {
+    padding: 15px;
 }

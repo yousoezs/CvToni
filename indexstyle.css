@@ -1,0 +1,14 @@
+#startSida {
+    height: 400px;
+}
+#startText {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: antiquewhite;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+hr.rounded {
+    border-radius: 6px;
+    border-width: 6px;
+}

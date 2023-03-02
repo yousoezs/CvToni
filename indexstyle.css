@@ -1,17 +1,10 @@
-#startSida {
-    padding: 0px;
-    align-items: flex-start;
-}
+
 #startText {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: antiquewhite;
     width: 50%;
     margin: auto;
     padding: 10px;
-}
-hr.rounded {
-    border-radius: 6px;
-    border-width: 6px;
 }
 #profile {
     display: flex;
@@ -22,24 +15,6 @@ hr.rounded {
     align-items: center;
     padding: 15px;
 }
-#information {
-    display: flex;
-    flex-direction: column;
-}
-#workPlaces {
-    display: flex;
-    flex-direction: column;
-    padding-left: 100px;
-}
-#bottom-section {
-    display: flex;
-    padding: 15px;
-}
 p.space {
     padding: 15px;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
 }

@@ -27,6 +27,8 @@ hr.rounded {
     flex-direction: column;
 }
 #workPlaces {
+    display: flex;
+    flex-direction: column;
     padding-left: 100px;
 }
 #bottom-section {
@@ -35,4 +37,9 @@ hr.rounded {
 }
 p.space {
     padding: 15px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }

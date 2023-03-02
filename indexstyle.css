@@ -39,7 +39,6 @@ p.space {
     padding: 15px;
 }
 .container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: grid;
+    grid-auto-rows: max-content;
 }
